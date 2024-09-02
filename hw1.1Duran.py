@@ -1,4 +1,4 @@
-#Homework 1.1 done by Noah Duran ( Andrew ID - nduran), teammate was Tanay Mathur ( Andrew ID - tanaym)
+#This was all the code from the 8 various tasks in the Instructions files also in this branch
 
 #Initial list of Fahrenheit temps to convert to C
 fahrenheitTempsStart = [0, 32, 45, 60, 70, 95, 212] #set the original list to an array
@@ -23,7 +23,7 @@ for c in celsiusTempsStart:
 print(convertedFahrStart)
 
 
-#Moving on to the second set of work!
+#Sample table to work off of
 
 """
 Date    Hi(F)  Lo(F)  %Hum
@@ -44,7 +44,7 @@ SEP 12     77     59    20
 SEP 13     77     59    50
 """
 
-#Array for the dates, added space to dates that are single digit
+#Array for the dates, added space to dates that are single digit for better view when printed
 dt = ["AUG 30", "AUG 31", "SEP 1 ", "SEP 2 ", "SEP 3 ", "SEP 4 ", "SEP 5 ", "SEP 6 ", "SEP 7 ", "SEP 8 ", "SEP 9 ", "SEP 10", "SEP 11", "SEP 12", "SEP 13"]
 
 #Array for the Hi temps
@@ -57,7 +57,7 @@ lo = [64, 66, 68, 68, 69, 69, 69, 67, 63 ,61, 61, 59, 59, 59, 59]
 hm = [60, 20, 20, 30, 30, 20, 20, 20, 30 , 20, 20, 20, 20, 20, 50]
 
 
-#Noah Duran's original attempt at getting the table to formulate being flush left
+#Original attempt at getting the table to formulate being flush left. It required me adding a space to the single digit dates as noted above
 print("Date ", "   Hi(F) ", "Lo(F) ", "%Hum")
 num_days = len(dt)
 for i in range(num_days):
@@ -103,8 +103,7 @@ hi2 = [107, 109, 104, 101, 99, 98, 95, 98, 98, 102, 104, 101, 99, 96, 99]
 lo2 = [78, 80, 79, 78, 77, 78, 78, 78, 77, 80, 81, 80, 78, 77, 78]
 hm2 = [15, 8, 12, 13, 9, 8, 8, 10, 10, 10, 12, 8, 15, 15, 12]
 
-print('{:<6s}{:>7s}{:>7s}{:>6s}'.format(
-          'Date', 'Hi(F)', 'Lo(F)', '%Hum'))
+print('{:<6s}{:>7s}{:>7s}{:>6s}'.format('Date', 'Hi(F)', 'Lo(F)', '%Hum'))
 num_days = len(dt2)
 for i in range(num_days):
     print('{:<6s}{:>7d}{:>7d}{:>6d}'.format(
