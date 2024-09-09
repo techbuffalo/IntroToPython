@@ -1,4 +1,4 @@
-#Totals of expenses file by Noah Duran with teammate Natasha Timothy
+#Totals of expenses file by Noah Duran
 with (open('/Users/noahd/Week2/RefFiles/expenses.txt', 'rt',
            encoding='utf-8') as fin):
     #Starting by setting all the final totals to zero
