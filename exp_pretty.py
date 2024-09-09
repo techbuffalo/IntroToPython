@@ -1,4 +1,5 @@
-#Properly formatted output file by Noah Duran with teammate Natasha Timothy
+#Properly formatted output file by Noah Duran
+#In this all columns had to be left justified except teh data in the amounts, which had to be right. In addition all had to be 10 spaces in width with an extra two spaces between the first and second columns
 
 with (open('/Users/noahd/Week2/RefFiles/expenses.txt', 'rt',
            encoding='utf-8') as fin):
