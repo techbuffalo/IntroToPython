@@ -1,4 +1,4 @@
-#HW3.1 File created by Noah Duran with teammate Ananya Yadav
+#HW3.1 File created by Noah Duran 
 
 #Inititalizing all the lists that will be used
 records = []
