@@ -2,4 +2,5 @@
 
 #Importing exp_report as er
 import exp_report as er
-er.exp_report('/Users/noahduran/PycharmProjects/Week4/expenses2.txt')
+filePath = input("Enter your expense report filepath: ")
+er.exp_report(filePath)
