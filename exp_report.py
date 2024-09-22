@@ -1,5 +1,3 @@
-# Author(s): Noah Duran (nduran) and Xun Yang (xunyang) Team 10
-
 #Initializing records2 to be the list that all the original data is sent into
 records2 = []
 
@@ -93,4 +91,5 @@ def exp_report(filepath):
 
 #Setting to run the function based on data from expenses.txt if exp_report is run from main
 if __name__ == '__main__':
-    exp_report('/Users/noahduran/PycharmProjects/Week4/HW4_export/expenses.txt')
+    filePath = input('Enter the file path of our expense file: ')
+    exp_report(filePath)
